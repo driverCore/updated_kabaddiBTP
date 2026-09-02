@@ -1,0 +1,105 @@
+# ── Datasets & Raw Data ────────────────────────────
+dataset/
+data/
+videos/
+frames/
+annotations/
+annotations_backup/
+tracks/
+dhruba_dataset/
+dhruba_dataset_processed/
+Updated_dataset/
+class_labelled_ground_truth/
+
+# ── Results & Outputs ─────────────────────────────
+results/
+results&analysis/
+outputs/
+output/
+runs/
+evaluation/
+evaluation_dhruba/
+OUTPUT_UPDATED/
+tracked_frames/
+predictions/
+
+# ── Generated Media ───────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.webp
+*.tif
+*.tiff
+
+# ── Model Weights ─────────────────────────────────
+*.pth
+*.onnx
+*.engine
+*.bin
+*.h5
+# Allow the trained YOLO detection model
+!models/
+models/*
+!models/best.pt
+
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────
+.venv/
+venv/
+env/
+mmaction_env/
+
+# ── IDE & OS ──────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+*.lnk
+
+# ── Logs & Temp ───────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*.crdownload
+
+# ── Archives & Documents ─────────────────────────
+*.zip
+*.tar.gz
+*.pdf
+*.pptx
+*.docx
+
+# ── Depth/SAM outputs ────────────────────────────
+samdepth/
+depth_log.txt
+*.json
+!requirements.txt
+
+# ── Misc project files ───────────────────────────
+track_records.json
+metadata/
+scratch_inspect/
+ground-truth-tool-/
+check_models/
+tests/
+tools/
+image/
+ambiguous/
+actiontestvideo/
+mmaction2/
