@@ -1,8 +1,27 @@
-# Kabaddi Tracking Heuristics
+# Kabaddi BTP — Player Tracking & Action Recognition
 
-Source code for six player tracking heuristic experiments developed for the Kabaddi BTP project.
+Source code for kabaddi player tracking heuristics and skeleton-based action recognition.
 
-## Experiments
+## Project Structure
+
+```
+Kabaddi Player Tracking & Action Recognition
+│
+├── Tracking Heuristics
+│   ├── E0 — Baseline YOLOv8 + ByteTrack
+│   ├── E2 — Geometrical Torso ROI
+│   ├── E3 — Chest + Head Pose Alignment
+│   ├── E5 — Hip/Shorts Colour Sampling
+│   ├── E7 — SAM Mask IoU
+│   └── E8 — MiDaS Relative Depth
+│
+└── Skeleton-Based Action Recognition
+    ├── YOLOv8 Detection → YOLOv8-Pose (17 COCO Keypoints)
+    ├── Skeleton Sequence Processing
+    └── ST-GCN / MMAction2 (12-class Kabaddi Actions)
+```
+
+## Tracking Heuristics
 
 | ID | Heuristic | Description |
 |----|-----------|-------------|
@@ -13,64 +32,65 @@ Source code for six player tracking heuristic experiments developed for the Kaba
 | E7 | SAM Mask IoU | Pixel-level silhouette mask association |
 | E8 | MiDaS Relative Depth | Monocular depth-plane gating cue |
 
-## Repository Structure
+See each experiment folder for detailed documentation.
+
+## Action Recognition
+
+12-class skeleton-based action recognition using ST-GCN on COCO 17-keypoint skeletons extracted via YOLOv8-Pose.
+
+| ID | Action | ID | Action |
+|----|--------|----|--------|
+| 0 | ankle_hold | 6 | hand_touch |
+| 1 | back_kick | 7 | lion_jump |
+| 2 | block | 8 | side_kick |
+| 3 | chain_tackle | 9 | thigh_hold |
+| 4 | dash | 10 | toe_touch |
+| 5 | dubki | 11 | waist_hold |
+
+See `action_recognition/README.md` for setup, training, and inference instructions.
+
+## Repository Layout
 
 ```
-tracking_heuristics/
-│
 ├── E0_baseline_bytetrack/          # Baseline YOLOv8 + ByteTrack
-│   ├── baseline_bytetrack.py       # CLI-driven ByteTrack on frames
-│   ├── bytetrack_gt_association.py # ByteTrack on ground-truth annotations
-│   └── README.md
-│
 ├── E2_geometrical_torso_roi/       # Torso ROI slicing
-│   ├── torso_roi_tracker.py        # Torso IoU association
-│   └── README.md
-│
 ├── E3_chest_head_pose_alignment/   # Pose keypoint alignment
-│   ├── pose_alignment_tracker.py   # Head + shoulder alignment
-│   └── README.md
-│
 ├── E5_hip_shorts_colour/           # Hip/shorts colour sampling
-│   ├── hip_colour_tracker.py       # Full TeamAwareIdentityTracker
-│   ├── simple_team_color.py        # Lightweight HSV classifier
-│   └── README.md
-│
 ├── E7_sam_mask_iou/                # SAM mask IoU
-│   ├── sam_mask_tracker.py         # SAM mask generation + overlay
-│   ├── sam_depth_pipeline.py       # Combined SAM + MiDaS pipeline
-│   └── README.md
-│
 ├── E8_midas_depth/                 # MiDaS relative depth
-│   ├── midas_depth_tracker.py      # Depth-annotated tracking
-│   ├── depth_features.py           # Standalone depth extraction
+├── common/                         # Shared tracking utilities
+├── models/                         # Trained YOLOv8 detection model
+├── action_recognition/             # ST-GCN action recognition
+│   ├── configs/                    # MMAction2 configs (base + kabaddi)
+│   ├── tools/                      # Patched train.py / test.py
+│   ├── scripts/                    # Custom BTP scripts
+│   ├── class_mapping.json          # 12-class action mapping
+│   ├── run_experiment.py           # End-to-end experiment orchestrator
+│   ├── requirements.txt            # Verified environment dependencies
 │   └── README.md
-│
-├── common/                         # Shared utilities
-│   ├── geometry_utils.py           # Bbox IoU, centre, diagonal, torso ROI
-│   ├── kalman4d.py                 # 4-state Kalman filter
-│   ├── hungarian_match.py          # Hungarian algorithm association
-│   └── README.md
-│
 ├── .gitignore
 ├── README.md
-└── requirements.txt
+└── requirements.txt                # Tracking heuristics dependencies
 ```
 
 ## Requirements
 
-Install dependencies:
-
+**Tracking heuristics:**
 ```bash
 pip install -r requirements.txt
 ```
 
+**Action recognition:**
+```bash
+pip install -r action_recognition/requirements.txt
+```
+
+See `action_recognition/README.md` for detailed setup instructions (PyTorch + OpenMMLab stack).
+
 ## Model Weights
 
-Model weights are **not included** in this repository. Place them in a `models/` directory:
-
-- `models/best.pt` — Trained YOLOv8 detection weights
-- `models/yolov8n-pose.pt` — YOLOv8 pose estimation weights
-- `models/mobile_sam.pt` — MobileSAM checkpoint
-
-MiDaS Small is downloaded automatically via `torch.hub` on first run.
+- `models/best.pt` — Trained YOLOv8 kabaddi player detection model (included)
+- `yolov8n-pose.pt` — YOLOv8 pose estimation weights (download from Ultralytics)
+- `mobile_sam.pt` — MobileSAM checkpoint (download separately)
+- MiDaS Small — Downloaded automatically via `torch.hub`
+- ST-GCN checkpoint — Not included; train using `action_recognition/run_experiment.py`

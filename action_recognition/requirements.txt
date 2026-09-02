@@ -1,0 +1,28 @@
+# Verified from mmaction_env (Python 3.11.9 venv)
+# Versions extracted from pip list and train.log on 2026-08-17
+
+# ── PyTorch (install first, matching CUDA version) ────────────
+# pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# ── OpenMMLab stack (install in this order) ───────────────────
+# pip install mmengine==0.10.7
+# pip install mmcv==2.1.0
+# pip install mmaction2==1.2.0
+mmengine==0.10.7
+mmcv==2.1.0
+mmaction2==1.2.0
+
+# ── Scientific / ML ──────────────────────────────────────────
+numpy>=2.0
+scipy>=1.10.0
+scikit-learn
+opencv-python>=4.8.0
+
+# ── Visualization ────────────────────────────────────────────
+matplotlib
+seaborn
+
+# ── Detection / Pose (for skeleton extraction pipeline) ──────
+ultralytics>=8.4.0

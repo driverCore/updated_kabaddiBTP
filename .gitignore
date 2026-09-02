@@ -90,6 +90,7 @@ samdepth/
 depth_log.txt
 *.json
 !requirements.txt
+!action_recognition/class_mapping.json
 
 # ── Misc project files ───────────────────────────
 track_records.json
@@ -99,6 +100,7 @@ ground-truth-tool-/
 check_models/
 tests/
 tools/
+!action_recognition/tools/
 image/
 ambiguous/
 actiontestvideo/
