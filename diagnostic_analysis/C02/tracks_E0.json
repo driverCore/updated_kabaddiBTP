@@ -1,0 +1,1411 @@
+[
+  {
+    "frame": "frame_0055",
+    "frame_idx": 54,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          944.9529780564263,
+          270.846394984326,
+          1147.5862068965519,
+          421.3166144200627
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0056",
+    "frame_idx": 55,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          973.0407523510972,
+          248.77742946708466,
+          1197.742946708464,
+          441.3793103448276
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0057",
+    "frame_idx": 56,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          946.11,
+          269.29,
+          1184.55,
+          439.45
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0058",
+    "frame_idx": 57,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 6,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1181.64,
+          212.75,
+          1319.57,
+          361.81
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          955.72,
+          266.6,
+          1197.25,
+          440.6
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0059",
+    "frame_idx": 58,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 6,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1180.89,
+          212.7,
+          1319.84,
+          362.9
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          959.57,
+          265.57,
+          1201.12,
+          441.05
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0060",
+    "frame_idx": 59,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 6,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1181.07,
+          212.73,
+          1319.93,
+          362.86
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          961.24,
+          265.22,
+          1201.53,
+          441.07
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0061",
+    "frame_idx": 60,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 6,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1177.13,
+          210.96,
+          1309.14,
+          351.63
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          974.74,
+          265.51,
+          1195.51,
+          426.48
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0062",
+    "frame_idx": 61,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 6,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1156.86,
+          213.26,
+          1275.51,
+          337.36
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1020.39,
+          276.14,
+          1205.94,
+          410.78
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0063",
+    "frame_idx": 62,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1047.28,
+          282.1,
+          1223.7,
+          410.74
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 7,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          921.45,
+          453.65,
+          1024.89,
+          679.06
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0064",
+    "frame_idx": 63,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1131.2755485893417,
+          282.7901567398119,
+          1268.4,
+          411.86
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 5,
+        "original_id": 7,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          917.84,
+          457.82,
+          1029.24,
+          700.73
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 2,
+        "original_id": 5,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1234.05,
+          329.67,
+          1414.27,
+          481.78
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0065",
+    "frame_idx": 64,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 5,
+        "original_id": 7,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          916.72,
+          459.18,
+          1030.6,
+          707.72
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 8,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1106.76,
+          441.47,
+          1253.38,
+          660.37
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 2,
+        "original_id": 5,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1239.28,
+          331.83,
+          1410.86,
+          484.24
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1155.6112852664578,
+          276.8652037617555,
+          1312.100313479624,
+          395.23510971786834
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0066",
+    "frame_idx": 65,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 2,
+        "original_id": 5,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1240.29,
+          325.55,
+          1386.3,
+          458.61
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1169.6551724137933,
+          252.78996865203763,
+          1282.0062695924767,
+          377.17868338558
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0067",
+    "frame_idx": 66,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 8,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1116.54,
+          464.95,
+          1258.58,
+          675.63
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1169.6551724137933,
+          244.76489028213166,
+          1302.0689655172414,
+          377.17868338558
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0068",
+    "frame_idx": 67,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 1,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1022.11,
+          264.78,
+          1214.59,
+          415.48
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1117.66,
+          468.92,
+          1259.87,
+          678.16
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 3,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1167.6489028213166,
+          244.76489028213166,
+          1288.025078369906,
+          377.17868338558
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0069",
+    "frame_idx": 68,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 8,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1016.99,
+          266.09,
+          1207.55,
+          416.1
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1118.28,
+          469.65,
+          1261.59,
+          678.34
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1141.5673981191223,
+          236.73981191222572,
+          1282.0062695924767,
+          377.17868338558
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0070",
+    "frame_idx": 69,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 8,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1014.65,
+          269.55,
+          1193.13,
+          409.12
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 4,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1154.71,
+          310.4,
+          1333.07,
+          461.96
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1145.5799373040752,
+          240.7523510971787,
+          1310.0940438871473,
+          345.07836990595615
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0071",
+    "frame_idx": 70,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 8,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1014.19,
+          279.27,
+          1183.52,
+          410.33
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 9,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1302.45,
+          514.85,
+          1429.4,
+          694.09
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1152.05,
+          310.31,
+          1325.71,
+          473.23
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1123.67,
+          481.94,
+          1270.66,
+          692.49
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1153.6050156739811,
+          248.77742946708466,
+          1314.1065830721004,
+          349.0909090909091
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0072",
+    "frame_idx": 71,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 10,
+        "original_id": 9,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1295.09,
+          503.28,
+          1436.31,
+          703.42
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1121.67,
+          508.15,
+          1256.84,
+          699.27
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1189.717868338558,
+          238.7460815047022,
+          1322.1316614420064,
+          363.1347962382445
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0073",
+    "frame_idx": 72,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1123.07,
+          520.63,
+          1259.26,
+          710.18
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1202.23,
+          249.52,
+          1306.4,
+          347.16
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0074",
+    "frame_idx": 73,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1122.79,
+          524.65,
+          1260.7,
+          713.68
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1202.11,
+          249.53,
+          1307.22,
+          348.05
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0075",
+    "frame_idx": 74,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1202.69,
+          247.71,
+          1314.85,
+          352.86
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1139.23,
+          333.74,
+          1269.98,
+          456.11
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0076",
+    "frame_idx": 75,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1202.88,
+          247.1,
+          1317.26,
+          354.41
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1136.48,
+          336.68,
+          1261.14,
+          453.16
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1119.09,
+          515.13,
+          1273.18,
+          725.34
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0077",
+    "frame_idx": 76,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1196.56,
+          246.24,
+          1315.19,
+          358.04
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1117.38,
+          340.31,
+          1241.07,
+          456.79
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1121.21,
+          530.18,
+          1276.89,
+          740.91
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0078",
+    "frame_idx": 77,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1192.29,
+          241.92,
+          1314.27,
+          357.7
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1099.22,
+          344.19,
+          1220.1,
+          458.61
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1118.06,
+          527.8,
+          1284.38,
+          754.3
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 11,
+        "original_id": 11,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          948.62,
+          363.13,
+          1032.29,
+          567.82
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 10,
+        "original_id": 9,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1279.53,
+          434.16,
+          1469.69,
+          709.83
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0079",
+    "frame_idx": 78,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1190.82,
+          240.26,
+          1313.28,
+          357.36
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1093.78,
+          345.56,
+          1213.17,
+          459.26
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1117.66,
+          527.89,
+          1286.55,
+          759.08
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 11,
+        "original_id": 11,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          951.93,
+          363.01,
+          1030.02,
+          552.55
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 10,
+        "original_id": 9,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1280.77,
+          430.06,
+          1469.59,
+          710.05
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0080",
+    "frame_idx": 79,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1177.1,
+          237.99,
+          1320.28,
+          377.45
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1085.95,
+          348.63,
+          1208.25,
+          464.61
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1116.48,
+          534.98,
+          1284.52,
+          765.16
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 11,
+        "original_id": 11,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          954.47,
+          362.94,
+          1025.98,
+          533.83
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 10,
+        "original_id": 9,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1286.66,
+          425.97,
+          1468.63,
+          700.86
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0081",
+    "frame_idx": 80,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1169.2,
+          240.06,
+          1318.29,
+          387.39
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1089.88,
+          353.88,
+          1209.82,
+          468.65
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 11,
+        "original_id": 11,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          941.44,
+          359.84,
+          1031.4,
+          572.67
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0082",
+    "frame_idx": 81,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1166.9,
+          240.88,
+          1316.38,
+          390.65
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1091.75,
+          355.66,
+          1210.49,
+          470.18
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 11,
+        "original_id": 11,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          937.47,
+          358.9,
+          1033.24,
+          582.89
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 12,
+        "original_id": 12,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          743.96,
+          266.85,
+          842.28,
+          464.26
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  },
+  {
+    "frame": "frame_0083",
+    "frame_idx": 82,
+    "image_w": 1920,
+    "image_h": 1080,
+    "frames_folder": "C:/Users/aryan/Downloads/BTP/diagnostic_analysis/frames/C02",
+    "tracks": [
+      {
+        "track_id": 4,
+        "original_id": 1,
+        "class_id": 0,
+        "class_name": "raider",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1159.15,
+          240.63,
+          1317.66,
+          400.99
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 9,
+        "original_id": 4,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1069.95,
+          363.75,
+          1205.71,
+          490.33
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 11,
+        "original_id": 11,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          939.09,
+          356.99,
+          1030.54,
+          566.24
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 12,
+        "original_id": 12,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          755.74,
+          268.17,
+          843.42,
+          443.62
+        ],
+        "status": "unreviewed"
+      },
+      {
+        "track_id": 7,
+        "original_id": 8,
+        "class_id": 1,
+        "class_name": "defender",
+        "conf": 1.0,
+        "bbox_xyxy": [
+          1100.08,
+          532.91,
+          1287.71,
+          794.45
+        ],
+        "status": "unreviewed"
+      }
+    ]
+  }
+]

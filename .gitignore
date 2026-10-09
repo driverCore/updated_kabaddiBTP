@@ -102,6 +102,12 @@ tests/
 tools/
 !action_recognition/tools/
 image/
-ambiguous/
-actiontestvideo/
 mmaction2/
+
+# ── Diagnostic Analysis (Benchmark results, JSON tracks & annotated frames) ──
+!diagnostic_analysis/
+!diagnostic_analysis/**
+!diagnostic_analysis/**/*.json
+!diagnostic_analysis/**/*.jpg
+!diagnostic_analysis/**/*.jpeg
+!diagnostic_analysis/**/*.png

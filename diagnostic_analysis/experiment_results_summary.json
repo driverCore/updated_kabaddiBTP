@@ -1,0 +1,347 @@
+{
+  "total_cases": 11,
+  "cases": [
+    {
+      "case_id": "C01",
+      "seq": "toe1",
+      "action": "toe_touch",
+      "split": "raid",
+      "crit_frame": 38,
+      "start_frame": 25,
+      "end_frame": 50,
+      "frames_evaluated": 26,
+      "max_iou": 0.791,
+      "phenomenon": "Severe overlap (79.1% IoU) during explosive reaching lunge at frame 38",
+      "switches": {
+        "E0": 1,
+        "E2": 1,
+        "E3": 0,
+        "E5": 2,
+        "E7": 0,
+        "E8": 1
+      },
+      "status": {
+        "E0": "P",
+        "E2": "P",
+        "E3": "S",
+        "E5": "F",
+        "E7": "S",
+        "E8": "P"
+      }
+    },
+    {
+      "case_id": "C02",
+      "seq": "dubki36",
+      "action": "dubki",
+      "split": "raid",
+      "crit_frame": 73,
+      "start_frame": 55,
+      "end_frame": 83,
+      "frames_evaluated": 29,
+      "max_iou": 0.179,
+      "phenomenon": "Low ground crouch ducking beneath defenders (height collapses to 97.6px)",
+      "switches": {
+        "E0": 1,
+        "E2": 0,
+        "E3": 0,
+        "E5": 5,
+        "E7": 0,
+        "E8": 1
+      },
+      "status": {
+        "E0": "P",
+        "E2": "S",
+        "E3": "S",
+        "E5": "F",
+        "E7": "S",
+        "E8": "P"
+      }
+    },
+    {
+      "case_id": "C03",
+      "seq": "toe21",
+      "action": "toe_touch",
+      "split": "raid",
+      "crit_frame": 44,
+      "start_frame": 30,
+      "end_frame": 60,
+      "frames_evaluated": 31,
+      "max_iou": 0.177,
+      "phenomenon": "Fast reaching toe touch and recovery sprint at frame 44",
+      "switches": {
+        "E0": 2,
+        "E2": 1,
+        "E3": 1,
+        "E5": 2,
+        "E7": 1,
+        "E8": 2
+      },
+      "status": {
+        "E0": "F",
+        "E2": "P",
+        "E3": "P",
+        "E5": "F",
+        "E7": "P",
+        "E8": "F"
+      }
+    },
+    {
+      "case_id": "C04",
+      "seq": "dash45",
+      "action": "dash",
+      "split": "defend",
+      "crit_frame": 21,
+      "start_frame": 6,
+      "end_frame": 28,
+      "frames_evaluated": 23,
+      "max_iou": 0.427,
+      "phenomenon": "Rapid diagonal crossing dash collision (IoU 0.427)",
+      "switches": {
+        "E0": 1,
+        "E2": 3,
+        "E3": 2,
+        "E5": 1,
+        "E7": 2,
+        "E8": 1
+      },
+      "status": {
+        "E0": "P",
+        "E2": "F",
+        "E3": "F",
+        "E5": "P",
+        "E7": "F",
+        "E8": "P"
+      }
+    },
+    {
+      "case_id": "C05",
+      "seq": "dash42",
+      "action": "dash",
+      "split": "defend",
+      "crit_frame": 89,
+      "start_frame": 60,
+      "end_frame": 94,
+      "frames_evaluated": 35,
+      "max_iou": 0.484,
+      "phenomenon": "Rapid multi-defender dash collision and spatial boundary squeeze (peak IoU 0.484 at frame 89)",
+      "switches": {
+        "E0": 2,
+        "E2": 3,
+        "E3": 3,
+        "E5": 3,
+        "E7": 3,
+        "E8": 2
+      },
+      "status": {
+        "E0": "F",
+        "E2": "F",
+        "E3": "F",
+        "E5": "F",
+        "E7": "F",
+        "E8": "F"
+      }
+    },
+    {
+      "case_id": "C06",
+      "seq": "dash5",
+      "action": "dash",
+      "split": "defend",
+      "crit_frame": 2,
+      "start_frame": 1,
+      "end_frame": 28,
+      "frames_evaluated": 28,
+      "max_iou": 0.425,
+      "phenomenon": "High-speed opening dash tackle collision (peak IoU 0.425 at frame 2)",
+      "switches": {
+        "E0": 0,
+        "E2": 0,
+        "E3": 0,
+        "E5": 4,
+        "E7": 0,
+        "E8": 0
+      },
+      "status": {
+        "E0": "S",
+        "E2": "S",
+        "E3": "S",
+        "E5": "F",
+        "E7": "S",
+        "E8": "S"
+      }
+    },
+    {
+      "case_id": "C07",
+      "seq": "bk_48",
+      "action": "back_kick",
+      "split": "raid",
+      "crit_frame": 17,
+      "start_frame": 1,
+      "end_frame": 18,
+      "frames_evaluated": 18,
+      "max_iou": 0.461,
+      "phenomenon": "Explosive back kick rotation and backward leg thrust (peak IoU 0.461 at frame 17)",
+      "switches": {
+        "E0": 0,
+        "E2": 1,
+        "E3": 1,
+        "E5": 4,
+        "E7": 1,
+        "E8": 0
+      },
+      "status": {
+        "E0": "S",
+        "E2": "P",
+        "E3": "P",
+        "E5": "F",
+        "E7": "P",
+        "E8": "S"
+      }
+    },
+    {
+      "case_id": "C08",
+      "seq": "dubki1",
+      "action": "dubki",
+      "split": "raid",
+      "crit_frame": 99,
+      "start_frame": 89,
+      "end_frame": 131,
+      "frames_evaluated": 43,
+      "max_iou": 0.361,
+      "phenomenon": "Low ground dive/escape under defender chain with heavy contact (IoU 0.361) and ducking",
+      "switches": {
+        "E0": 0,
+        "E2": 1,
+        "E3": 1,
+        "E5": 7,
+        "E7": 1,
+        "E8": 0
+      },
+      "status": {
+        "E0": "S",
+        "E2": "P",
+        "E3": "P",
+        "E5": "F",
+        "E7": "P",
+        "E8": "S"
+      }
+    },
+    {
+      "case_id": "C09",
+      "seq": "dubki10",
+      "action": "dubki",
+      "split": "raid",
+      "crit_frame": 8,
+      "start_frame": 1,
+      "end_frame": 39,
+      "frames_evaluated": 39,
+      "max_iou": 0.375,
+      "phenomenon": "Fast ducking evasion underneath oncoming defender tackle with aspect ratio compression (IoU 0.375)",
+      "switches": {
+        "E0": 1,
+        "E2": 1,
+        "E3": 1,
+        "E5": 2,
+        "E7": 1,
+        "E8": 1
+      },
+      "status": {
+        "E0": "P",
+        "E2": "P",
+        "E3": "P",
+        "E5": "F",
+        "E7": "P",
+        "E8": "P"
+      }
+    },
+    {
+      "case_id": "C10",
+      "seq": "wh41",
+      "action": "waist_hold",
+      "split": "defend",
+      "crit_frame": 90,
+      "start_frame": 76,
+      "end_frame": 90,
+      "frames_evaluated": 15,
+      "max_iou": 0.375,
+      "phenomenon": "Multi-defender waist hold pack capture with severe occlusion clutter (peak IoU 0.375 at frame 90)",
+      "switches": {
+        "E0": 0,
+        "E2": 1,
+        "E3": 1,
+        "E5": 1,
+        "E7": 1,
+        "E8": 0
+      },
+      "status": {
+        "E0": "S",
+        "E2": "P",
+        "E3": "P",
+        "E5": "P",
+        "E7": "P",
+        "E8": "S"
+      }
+    },
+    {
+      "case_id": "C11",
+      "seq": "wh12",
+      "action": "waist_hold",
+      "split": "defend",
+      "crit_frame": 24,
+      "start_frame": 1,
+      "end_frame": 34,
+      "frames_evaluated": 34,
+      "max_iou": 0.647,
+      "phenomenon": "Close-quarters 1-on-1 waist hold struggle with extreme bounding box overlap (peak IoU 0.647 at frame 24)",
+      "switches": {
+        "E0": 0,
+        "E2": 1,
+        "E3": 0,
+        "E5": 3,
+        "E7": 0,
+        "E8": 0
+      },
+      "status": {
+        "E0": "S",
+        "E2": "P",
+        "E3": "S",
+        "E5": "F",
+        "E7": "S",
+        "E8": "S"
+      }
+    }
+  ],
+  "totals": {
+    "total_switches": {
+      "E0": 8,
+      "E2": 13,
+      "E3": 10,
+      "E5": 34,
+      "E7": 10,
+      "E8": 8
+    },
+    "success_cases": {
+      "E0": 5,
+      "E2": 2,
+      "E3": 4,
+      "E5": 0,
+      "E7": 4,
+      "E8": 5
+    },
+    "partial_cases": {
+      "E0": 4,
+      "E2": 7,
+      "E3": 5,
+      "E5": 2,
+      "E7": 5,
+      "E8": 4
+    },
+    "failed_cases": {
+      "E0": 2,
+      "E2": 2,
+      "E3": 2,
+      "E5": 9,
+      "E7": 2,
+      "E8": 2
+    }
+  }
+}
