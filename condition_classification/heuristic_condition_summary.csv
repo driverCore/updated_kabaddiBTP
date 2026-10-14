@@ -1,0 +1,7 @@
+heuristic,implemented_as,High overlap (%),Low overlap (%),High speed (%),Low speed (%),Raider in front (%),Raider behind (%),High overlap (n/N),Low overlap (n/N),High speed (n/N),Low speed (n/N),Raider in front (n/N),Raider behind (n/N),All eligible (%),All eligible (n/N)
+E0,ByteTrack (Kalman + 2-stage IoU),93.2%,95.1%,92.9%,94.9%,95.6%,96.3%,2203/2365,15646/16446,2916/3138,16865/17776,5643/5905,5716/5933,94.6%,19849/20988
+E2,greedy torso-crop IoU,90.1%,93.6%,94.2%,93.0%,92.9%,94.3%,2132/2365,15401/16446,2955/3138,16538/17776,5483/5905,5597/5933,93.2%,19556/20988
+E3,greedy full-box IoU (associate_by_iou); no pose keypoints,91.5%,94.1%,94.7%,93.6%,93.1%,94.9%,2165/2365,15483/16446,2971/3138,16639/17776,5499/5905,5633/5933,93.7%,19674/20988
+E5,HSV lower-body colour team tracker,70.0%,72.9%,72.3%,72.9%,71.2%,73.6%,1656/2365,11992/16446,2270/3138,12960/17776,4204/5905,4364/5933,72.8%,15274/20988
+E7,greedy MobileSAM mask-IoU association (associate_by_mask_iou),69.0%,85.6%,78.7%,84.3%,83.4%,84.1%,1633/2365,14070/16446,2471/3138,14981/17776,4924/5905,4987/5933,83.4%,17507/20988
+E8,Hungarian on (1-IoU) + 0.01*|MiDaS depth diff| (associate_by_iou_depth),88.4%,90.5%,90.2%,90.5%,87.4%,92.5%,2091/2365,14885/16446,2832/3138,16093/17776,5162/5905,5487/5933,90.5%,18991/20988

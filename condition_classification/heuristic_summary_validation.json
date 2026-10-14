@@ -1,0 +1,653 @@
+{
+  "full_dataset": {
+    "population": "full dataset",
+    "videos_eligible_schema": 625,
+    "videos_excluded_raw_tracker_schema": [
+      "defend/ankle_hold/ak100",
+      "defend/ankle_hold/ak101",
+      "defend/ankle_hold/ak102",
+      "defend/ankle_hold/ak103",
+      "defend/ankle_hold/ak104",
+      "defend/ankle_hold/ak105",
+      "defend/ankle_hold/ak106",
+      "defend/ankle_hold/ak107",
+      "defend/ankle_hold/ak108",
+      "defend/ankle_hold/ak109",
+      "defend/ankle_hold/ak110",
+      "defend/ankle_hold/ak111",
+      "defend/ankle_hold/ak112",
+      "defend/ankle_hold/ak113",
+      "defend/ankle_hold/ak114",
+      "defend/ankle_hold/ak115",
+      "defend/ankle_hold/ak116",
+      "defend/ankle_hold/ak117",
+      "defend/ankle_hold/ak118",
+      "defend/ankle_hold/ak119",
+      "defend/ankle_hold/ak120",
+      "defend/ankle_hold/ak121",
+      "defend/ankle_hold/ak122",
+      "defend/ankle_hold/ak123",
+      "defend/ankle_hold/ak124",
+      "defend/ankle_hold/ak56",
+      "defend/ankle_hold/ak57",
+      "defend/ankle_hold/ak58",
+      "defend/ankle_hold/ak60",
+      "defend/ankle_hold/ak61",
+      "defend/ankle_hold/ak62",
+      "defend/ankle_hold/ak63",
+      "defend/ankle_hold/ak64",
+      "defend/ankle_hold/ak65",
+      "defend/ankle_hold/ak66",
+      "defend/ankle_hold/ak67",
+      "defend/ankle_hold/ak68",
+      "defend/ankle_hold/ak69",
+      "defend/ankle_hold/ak70",
+      "defend/ankle_hold/ak71",
+      "defend/ankle_hold/ak72",
+      "defend/ankle_hold/ak73",
+      "defend/ankle_hold/ak74",
+      "defend/ankle_hold/ak75",
+      "defend/ankle_hold/ak76",
+      "defend/ankle_hold/ak77",
+      "defend/ankle_hold/ak78",
+      "defend/ankle_hold/ak79",
+      "defend/ankle_hold/ak80",
+      "defend/ankle_hold/ak81",
+      "defend/ankle_hold/ak82",
+      "defend/ankle_hold/ak83",
+      "defend/ankle_hold/ak84",
+      "defend/ankle_hold/ak85",
+      "defend/ankle_hold/ak86",
+      "defend/ankle_hold/ak87",
+      "defend/ankle_hold/ak88",
+      "defend/ankle_hold/ak89",
+      "defend/ankle_hold/ak90",
+      "defend/ankle_hold/ak91",
+      "defend/ankle_hold/ak92",
+      "defend/ankle_hold/ak93",
+      "defend/ankle_hold/ak94",
+      "defend/ankle_hold/ak95",
+      "defend/ankle_hold/ak96",
+      "defend/ankle_hold/ak97",
+      "defend/ankle_hold/ak98",
+      "defend/ankle_hold/ak99",
+      "defend/block/block14",
+      "defend/block/block39",
+      "defend/waist_hold/wh15",
+      "raid/back_kick/bk_17",
+      "raid/back_kick/bk_4",
+      "raid/back_kick/bk_5",
+      "raid/back_kick/bk_6",
+      "raid/back_kick/bk_81",
+      "raid/back_kick/bk_82",
+      "raid/back_kick/bk_83",
+      "raid/back_kick/bk_84",
+      "raid/back_kick/bk_85",
+      "raid/back_kick/bk_86",
+      "raid/back_kick/bk_87",
+      "raid/back_kick/bk_88",
+      "raid/back_kick/bk_89",
+      "raid/back_kick/bk_8",
+      "raid/back_kick/bk_90",
+      "raid/back_kick/bk_91",
+      "raid/back_kick/bk_92",
+      "raid/back_kick/bk_93",
+      "raid/back_kick/bk_94",
+      "raid/back_kick/bk_95",
+      "raid/back_kick/bk_96",
+      "raid/back_kick/bk_97",
+      "raid/back_kick/bk_98",
+      "raid/back_kick/bk_99",
+      "raid/back_kick/bk_9"
+    ],
+    "videos_missing_cache": [],
+    "box_match_failures": [],
+    "frames_missing_in_tracks": [],
+    "birth_placeholder_suspects": [
+      "defend/thigh_hold/th22/E7/frame 1",
+      "defend/thigh_hold/th36/E7/frame 1",
+      "raid/dubki/dubki40/E2/frame 22",
+      "raid/dubki/dubki40/E3/frame 22",
+      "raid/dubki/dubki40/E7/frame 22"
+    ],
+    "identical_outputs": {
+      "E3==E7": false,
+      "E0==E8": false
+    },
+    "frames_where_outputs_differ": {
+      "E3==E7": 6227,
+      "E0==E8": 12200
+    },
+    "birth_placeholder_suspects_count": 5,
+    "e0_difference_cluster_bootstrap_pp": {
+      "E2": {
+        "High overlap": [
+          -3.0,
+          -6.08,
+          -0.08,
+          315
+        ],
+        "Low overlap": [
+          -1.49,
+          -3.34,
+          0.2,
+          616
+        ],
+        "High speed": [
+          1.24,
+          -0.53,
+          3.0,
+          521
+        ],
+        "Low speed": [
+          -1.84,
+          -3.76,
+          -0.07,
+          622
+        ],
+        "Raider in front": [
+          -2.71,
+          -5.31,
+          0.02,
+          452
+        ],
+        "Raider behind": [
+          -2.01,
+          -4.02,
+          -0.23,
+          463
+        ],
+        "All eligible": [
+          -1.4,
+          -3.16,
+          0.23,
+          625
+        ]
+      },
+      "E3": {
+        "High overlap": [
+          -1.61,
+          -4.66,
+          1.42,
+          315
+        ],
+        "Low overlap": [
+          -0.99,
+          -2.85,
+          0.7,
+          616
+        ],
+        "High speed": [
+          1.75,
+          -0.16,
+          3.64,
+          521
+        ],
+        "Low speed": [
+          -1.27,
+          -3.23,
+          0.47,
+          622
+        ],
+        "Raider in front": [
+          -2.44,
+          -5.06,
+          0.22,
+          452
+        ],
+        "Raider behind": [
+          -1.4,
+          -3.25,
+          0.25,
+          463
+        ],
+        "All eligible": [
+          -0.83,
+          -2.52,
+          0.78,
+          625
+        ]
+      },
+      "E5": {
+        "High overlap": [
+          -23.13,
+          -28.38,
+          -18.48,
+          315
+        ],
+        "Low overlap": [
+          -22.22,
+          -24.89,
+          -19.67,
+          616
+        ],
+        "High speed": [
+          -20.59,
+          -23.92,
+          -17.16,
+          521
+        ],
+        "Low speed": [
+          -21.97,
+          -24.7,
+          -19.47,
+          622
+        ],
+        "Raider in front": [
+          -24.37,
+          -28.61,
+          -20.07,
+          452
+        ],
+        "Raider behind": [
+          -22.79,
+          -26.12,
+          -19.74,
+          463
+        ],
+        "All eligible": [
+          -21.8,
+          -24.33,
+          -19.39,
+          625
+        ]
+      },
+      "E7": {
+        "High overlap": [
+          -24.1,
+          -29.55,
+          -19.15,
+          315
+        ],
+        "Low overlap": [
+          -9.58,
+          -11.83,
+          -7.42,
+          616
+        ],
+        "High speed": [
+          -14.18,
+          -16.86,
+          -11.6,
+          521
+        ],
+        "Low speed": [
+          -10.6,
+          -12.86,
+          -8.41,
+          622
+        ],
+        "Raider in front": [
+          -12.18,
+          -15.55,
+          -8.96,
+          452
+        ],
+        "Raider behind": [
+          -12.29,
+          -15.26,
+          -9.57,
+          463
+        ],
+        "All eligible": [
+          -11.16,
+          -13.26,
+          -8.96,
+          625
+        ]
+      },
+      "E8": {
+        "High overlap": [
+          -4.74,
+          -8.51,
+          -1.25,
+          315
+        ],
+        "Low overlap": [
+          -4.63,
+          -6.67,
+          -2.72,
+          616
+        ],
+        "High speed": [
+          -2.68,
+          -5.17,
+          -0.06,
+          521
+        ],
+        "Low speed": [
+          -4.34,
+          -6.43,
+          -2.47,
+          622
+        ],
+        "Raider in front": [
+          -8.15,
+          -11.21,
+          -5.08,
+          452
+        ],
+        "Raider behind": [
+          -3.86,
+          -5.88,
+          -2.05,
+          463
+        ],
+        "All eligible": [
+          -4.09,
+          -6.08,
+          -2.25,
+          625
+        ]
+      }
+    }
+  },
+  "diagnostic_selected_cases": {
+    "cases": [
+      "C01",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C10",
+      "C14",
+      "C19"
+    ],
+    "missing_heuristic_files": [],
+    "box_match_failures": [],
+    "gt_box_set_mismatch_frames": [],
+    "switch_count_check": {
+      "C01/E0": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C01/E2": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C01/E3": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C01/E5": {
+        "recomputed": 2,
+        "experiment_results_summary": 2,
+        "match": true
+      },
+      "C01/E7": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C01/E8": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C03/E0": {
+        "recomputed": 2,
+        "experiment_results_summary": 2,
+        "match": true
+      },
+      "C03/E2": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C03/E3": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C03/E5": {
+        "recomputed": 2,
+        "experiment_results_summary": 2,
+        "match": true
+      },
+      "C03/E7": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C03/E8": {
+        "recomputed": 2,
+        "experiment_results_summary": 2,
+        "match": true
+      },
+      "C04/E0": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C04/E2": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C04/E3": {
+        "recomputed": 2,
+        "experiment_results_summary": 2,
+        "match": true
+      },
+      "C04/E5": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C04/E7": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C04/E8": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C05/E0": {
+        "recomputed": 2,
+        "experiment_results_summary": 2,
+        "match": true
+      },
+      "C05/E2": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C05/E3": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C05/E5": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C05/E7": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C05/E8": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C06/E0": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C06/E2": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C06/E3": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C06/E5": {
+        "recomputed": 4,
+        "experiment_results_summary": 4,
+        "match": true
+      },
+      "C06/E7": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C06/E8": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C07/E0": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C07/E2": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C07/E3": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C07/E5": {
+        "recomputed": 4,
+        "experiment_results_summary": 4,
+        "match": true
+      },
+      "C07/E7": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C07/E8": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C10/E0": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C10/E2": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C10/E3": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C10/E5": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C10/E7": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C10/E8": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C14/E0": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C14/E2": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C14/E3": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C14/E5": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C14/E7": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C14/E8": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C19/E0": {
+        "recomputed": 3,
+        "experiment_results_summary": 3,
+        "match": true
+      },
+      "C19/E2": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C19/E3": {
+        "recomputed": 1,
+        "experiment_results_summary": 1,
+        "match": true
+      },
+      "C19/E5": {
+        "recomputed": 5,
+        "experiment_results_summary": 5,
+        "match": true
+      },
+      "C19/E7": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      },
+      "C19/E8": {
+        "recomputed": 0,
+        "experiment_results_summary": 0,
+        "match": true
+      }
+    },
+    "birth_placeholder_suspects": [
+      "C04/E5/frame 6",
+      "C05/E2/frame 60",
+      "C05/E3/frame 60",
+      "C05/E7/frame 60",
+      "C05/E8/frame 60",
+      "C07/E2/frame 1",
+      "C07/E3/frame 1",
+      "C07/E7/frame 1",
+      "C07/E8/frame 1",
+      "C10/E2/frame 76",
+      "C10/E3/frame 76",
+      "C10/E7/frame 76",
+      "C10/E8/frame 76"
+    ],
+    "identical_outputs": {
+      "E3==E7": false,
+      "E0==E8": false
+    },
+    "all_switch_counts_match": true
+  }
+}

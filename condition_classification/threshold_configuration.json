@@ -1,0 +1,42 @@
+{
+  "overlap": {
+    "high_overlap_iou_threshold": 0.25,
+    "very_high_overlap_iou_threshold": 0.5,
+    "comparison": "0.25 < IoU <= 0.5 -> HIGH_OVERLAP; IoU > 0.5 -> VERY_HIGH_OVERLAP",
+    "source": "Reused from the project's earlier root-cause analysis (results_analysis/evaluation/scripts/analyze_switch_reasons.py, `max_box_overlap > 0.25` = occlusion trigger), which computed the same quantity: max IoU between the GT raider box and any other GT box.",
+    "exclude_other_raider_labelled_boxes": true
+  },
+  "speed": {
+    "high_speed_px_per_s_threshold": 1050.0,
+    "comparison": "strictly greater than -> HIGH_SPEED",
+    "source": "Reused from analyze_switch_reasons.py (`velocity > 35.0` px/frame, GT box-centre displacement between consecutive frames), converted to px/s at a nominal 30 fps (35 x 30 = 1050 px/s) so the threshold is a fixed physical-time rate. At the actual case FPS (24.0-30.9) this equals 34.0-43.8 px/frame.",
+    "max_gap_frames": 1,
+    "max_gap_note": "Velocity is only computed between GT raider observations at most this many frames apart. 1 = strictly consecutive frames; no interpolation across gaps.",
+    "difference_scheme": "forward difference c[t+1]-c[t]; backward difference c[t]-c[t-1] only when t+1 is unavailable (flagged SPEED_BACKWARD_DIFFERENCE)",
+    "box_shape_change_flag_ratio": 0.5,
+    "box_shape_change_note": "Flag (not relabel) when raider box area changes by more than this fraction between the two frames used: centre displacement then partly reflects box deformation (limb extension, crouch), not body translation. 0.5 matches the earlier project's 50% bbox-expansion rule."
+  },
+  "depth": {
+    "model": "MiDaS_small via existing tracking/E8_midas_depth/depth_features.py",
+    "convention": "MiDaS outputs relative INVERSE depth (disparity-like): larger value = closer to camera. Verified empirically per frame (see convention checks).",
+    "statistic": "median of MiDaS values over each player's box pixels, EXCLUDING the pixels in the raider/opponent box intersection (those pixels belong to whichever player is in front and would bias both medians toward each other)",
+    "normalisation": "difference divided by the frame's robust depth range (p95 - p5 of the full depth map), because MiDaS scale is arbitrary per frame",
+    "front_behind_margin": 0.05,
+    "margin_source": "PROPOSED, not previously established in the repository. |normalised difference| <= margin -> UNKNOWN. Sensitivity at 0.02 and 0.10 is reported in classification_summary.md.",
+    "sensitivity_margins": [
+      0.02,
+      0.1
+    ],
+    "min_valid_pixel_fraction": 0.2,
+    "min_valid_pixels": 100,
+    "valid_pixel_note": "If fewer than max(min_valid_pixels, fraction x box area) exclusive pixels remain for either player, the label is UNKNOWN.",
+    "opponent_selection": "the opponent with the greatest GT box IoU (> 0). If no box overlaps, the nearest opponent by centre distance, if within proximity_max_raider_heights x raider box height; otherwise NOT_APPLICABLE.",
+    "proximity_max_raider_heights": 1.0
+  },
+  "duplicate_raider": {
+    "rule": "When >1 GT box is labelled raider, pick the one with greatest IoU to the previous selected raider box (same rule as generate_gt_tool_cases.py).",
+    "min_continuity_iou": 0.3,
+    "min_continuity_margin": 0.2,
+    "note": "If the best continuity IoU < min_continuity_iou or beats the runner-up by less than min_continuity_margin, the raider is ambiguous and the frame is INELIGIBLE."
+  }
+}
